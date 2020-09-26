@@ -24,6 +24,7 @@ IMAGES = common \
 		gpu/triangle \
 		gpu/vram-to-vram-overlap \
 		gpu/version-detect \
+		gpu/display-control \
 		gte-fuzz \
 		mdec \
 		spu/memory-transfer \
@@ -39,4 +40,4 @@ $(TOPTARGETS): $(IMAGES)
 $(IMAGES):
 	@$(MAKE) --no-print-directory -C $@ $(MAKECMDGOALS)
 
-.PHONY: $(TOPTAGETS) $(IMAGES)
+.PHONY: $(TOPTARGETS) $(IMAGES)
