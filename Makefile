@@ -25,6 +25,7 @@ IMAGES = common \
 		gpu/vram-to-vram-overlap \
 		gpu/version-detect \
 		gpu/display-control \
+		gpu/ode-test \
 		gte-fuzz \
 		mdec \
 		spu/memory-transfer \
